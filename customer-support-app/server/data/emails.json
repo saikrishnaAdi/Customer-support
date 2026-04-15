@@ -1,0 +1,62 @@
+[
+  {
+    "id": "EMAIL-MNYT7GB8-9e14",
+    "from": "support@eqms-support.com",
+    "fromName": "eQMS Support System",
+    "to": "unknown@pharma.com",
+    "toName": "User",
+    "subject": "[TKT-MNYT7FW6] Support Request Received — ww",
+    "body": "Dear User,\n\nYour support request has been successfully submitted.\n\nTicket ID: TKT-MNYT7FW6\nModule: TMS\nPriority: Medium\nCategory: General\nAssigned To: Sarah Johnson\n\nTitle: ww\nDescription: www\n\nSLA Deadline: 15/4/2026, 9:31:49 pm\n\nYou can track your request in the eQMS Support portal.\n\nBest regards,\neQMS Support Team",
+    "ticketId": "TKT-MNYT7FW6",
+    "type": "ticket-confirmation",
+    "attachments": [],
+    "status": "sent",
+    "sentAt": "2026-04-14T16:01:50.420Z",
+    "read": false
+  },
+  {
+    "id": "EMAIL-MNYT7GBO-4c4c",
+    "from": "support@eqms-support.com",
+    "fromName": "eQMS Support System",
+    "to": "sarah@support.com",
+    "toName": "Sarah Johnson",
+    "subject": "[New Ticket] TKT-MNYT7FW6 — ww (Medium)",
+    "body": "A new support request has been raised.\n\nTicket ID: TKT-MNYT7FW6\nRaised by: undefined (undefined)\nModule: TMS\nPriority: Medium\n\nTitle: ww\nDescription: www\n\nSLA Deadline: 15/4/2026, 9:31:49 pm\n\n⚡ This ticket has been auto-assigned to YOU.",
+    "ticketId": "TKT-MNYT7FW6",
+    "type": "agent-notification",
+    "attachments": [],
+    "status": "sent",
+    "sentAt": "2026-04-14T16:01:50.436Z",
+    "read": false
+  },
+  {
+    "id": "EMAIL-MNYT7GCF-e70a",
+    "from": "support@eqms-support.com",
+    "fromName": "eQMS Support System",
+    "to": "david@support.com",
+    "toName": "David Chen",
+    "subject": "[New Ticket] TKT-MNYT7FW6 — ww (Medium)",
+    "body": "A new support request has been raised.\n\nTicket ID: TKT-MNYT7FW6\nRaised by: undefined (undefined)\nModule: TMS\nPriority: Medium\n\nTitle: ww\nDescription: www\n\nSLA Deadline: 15/4/2026, 9:31:49 pm\n\n",
+    "ticketId": "TKT-MNYT7FW6",
+    "type": "agent-notification",
+    "attachments": [],
+    "status": "sent",
+    "sentAt": "2026-04-14T16:01:50.464Z",
+    "read": false
+  },
+  {
+    "id": "EMAIL-MNYT7GCL-6fcb",
+    "from": "support@eqms-support.com",
+    "fromName": "eQMS Support System",
+    "to": "ramesh@support.com",
+    "toName": "Dr. Ramesh Kumar",
+    "subject": "[New Ticket] TKT-MNYT7FW6 — ww (Medium)",
+    "body": "A new support request has been raised.\n\nTicket ID: TKT-MNYT7FW6\nRaised by: undefined (undefined)\nModule: TMS\nPriority: Medium\n\nTitle: ww\nDescription: www\n\nSLA Deadline: 15/4/2026, 9:31:49 pm\n\n",
+    "ticketId": "TKT-MNYT7FW6",
+    "type": "agent-notification",
+    "attachments": [],
+    "status": "sent",
+    "sentAt": "2026-04-14T16:01:50.469Z",
+    "read": false
+  }
+]

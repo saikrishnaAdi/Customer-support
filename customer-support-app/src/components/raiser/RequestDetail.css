@@ -1,0 +1,19 @@
+﻿/* RequestDetail uses the same .zd-* classes from TicketWorkspace.css
+   Only additions specific to raiser view are here */
+
+.raiser-view .zd-sla-breach { display: inline-block; font-size: 11px; font-weight: 700; color: #ef4444; margin-top: 4px; }
+
+/* Rating Section */
+.zd-rating-section { padding: 14px 0; }
+.zd-rating-section > label { display: block; font-size: 14px; font-weight: 600; color: #2f3941; margin-bottom: 10px; }
+.zd-stars { display: flex; gap: 4px; margin-bottom: 10px; }
+.zd-star { background: none; border: none; cursor: pointer; color: #d8dcde; padding: 2px; transition: color 0.15s; }
+.zd-star:hover, .zd-star.on { color: #f59e0b; }
+.zd-rate-text { width: 100%; border: 1px solid #d8dcde; border-radius: 6px; padding: 8px; font-size: 13px; font-family: inherit; resize: none; outline: none; margin-bottom: 10px; }
+.zd-rate-text:focus { border-color: #1f73b7; }
+.zd-rate-cats { margin-bottom: 12px; }
+.zd-rate-label { display: block; font-size: 12px; color: #68737d; margin-bottom: 6px; }
+.zd-rate-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.zd-rate-chip { padding: 5px 12px; border-radius: 16px; border: 1px solid #d8dcde; background: #fff; color: #49545c; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+.zd-rate-chip:hover { border-color: #1f73b7; color: #1f73b7; }
+.zd-rate-chip.on { border-color: #1f73b7; background: #edf7ff; color: #1f73b7; font-weight: 600; }

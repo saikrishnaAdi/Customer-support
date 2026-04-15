@@ -1,0 +1,119 @@
+.auditor-dashboard { padding: 24px; max-width: 1100px; margin: 0 auto; }
+
+.auditor-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.auditor-stat {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px 18px;
+}
+.aud-icon { color: #64748b; }
+.aud-icon.sla { color: #3b82f6; }
+.aud-icon.breach { color: #ef4444; }
+.aud-icon.pending { color: #f59e0b; }
+.aud-val { display: block; font-size: 22px; font-weight: 800; color: #1e293b; line-height: 1; }
+.aud-lbl { font-size: 12px; color: #64748b; }
+
+.auditor-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.auditor-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 8px 14px;
+  flex: 1;
+  min-width: 200px;
+}
+.auditor-search input { border: none; outline: none; font-size: 13px; width: 100%; color: #1e293b; }
+.auditor-search input::placeholder { color: #94a3b8; }
+.auditor-search svg { color: #94a3b8; }
+.auditor-filter {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #475569;
+  background: #fff;
+}
+
+.auditor-read-only-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: rgba(139,92,246,0.08);
+  border: 1px solid rgba(139,92,246,0.2);
+  border-radius: 10px;
+  font-size: 12px;
+  color: #7c3aed;
+  margin-bottom: 16px;
+}
+
+.auditor-ticket-list { display: flex; flex-direction: column; gap: 10px; }
+
+.auditor-ticket-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.auditor-ticket-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.auditor-ticket-header:hover { background: #f8fafc; }
+.atc-left { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+.atc-id { font-size: 12px; font-family: monospace; color: #3b82f6; font-weight: 600; white-space: nowrap; }
+.atc-title { font-size: 14px; font-weight: 600; color: #1e293b; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.atc-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.atc-right svg { color: #94a3b8; }
+
+.auditor-ticket-detail {
+  padding: 16px 18px;
+  border-top: 1px solid #f1f5f9;
+  background: #fafbfc;
+}
+.atd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.atd-item { display: flex; flex-direction: column; gap: 2px; }
+.atd-label { font-size: 11px; color: #94a3b8; text-transform: uppercase; font-weight: 600; letter-spacing: 0.3px; }
+.atd-item span:last-child { font-size: 13px; color: #1e293b; }
+.sla-badge { font-size: 12px; font-weight: 600; }
+.sla-badge.breached { color: #ef4444; }
+.sla-badge.ok { color: #16a34a; }
+
+.atd-desc { margin-bottom: 16px; }
+.atd-desc strong { font-size: 13px; color: #64748b; }
+.atd-desc p { font-size: 13px; color: #475569; margin: 4px 0 0; line-height: 1.5; }
+
+.atd-history { margin-top: 4px; }
+.atd-history > strong { font-size: 13px; color: #475569; display: block; margin-bottom: 10px; }
+.atd-history-list { display: flex; flex-direction: column; gap: 6px; }
+.atd-history-item { display: flex; gap: 10px; align-items: flex-start; }
+.atd-h-dot { width: 6px; height: 6px; border-radius: 50%; background: #94a3b8; margin-top: 7px; flex-shrink: 0; }
+.atd-h-content { flex: 1; }
+.atd-h-detail { font-size: 13px; color: #475569; display: block; }
+.atd-h-meta { font-size: 11px; color: #94a3b8; }

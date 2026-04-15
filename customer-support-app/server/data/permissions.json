@@ -1,0 +1,77 @@
+{
+  "requester": [
+    "create_ticket",
+    "view_own_tickets",
+    "chat_call",
+    "confirm_resolution"
+  ],
+  "executive": [
+    "view_own_tickets",
+    "view_assigned_tickets",
+    "update_status",
+    "chat_call"
+  ],
+  "professional": [
+    "view_own_tickets",
+    "view_assigned_tickets",
+    "update_status",
+    "resolve_ticket",
+    "add_internal_notes",
+    "chat_call",
+    "request_user_creation"
+  ],
+  "senior-professional": [
+    "view_own_tickets",
+    "view_all_tickets",
+    "view_assigned_tickets",
+    "update_status",
+    "resolve_ticket",
+    "add_internal_notes",
+    "chat_call",
+    "request_user_creation",
+    "root_cause_analysis"
+  ],
+  "manager": [
+    "view_own_tickets",
+    "view_all_tickets",
+    "assign_ticket",
+    "update_status",
+    "resolve_ticket",
+    "add_internal_notes",
+    "chat_call",
+    "view_audit_trail",
+    "request_user_creation",
+    "approve_user_request",
+    "monitor_sla",
+    "handle_escalations",
+    "review_performance"
+  ],
+  "qa-reviewer": [
+    "view_own_tickets",
+    "view_all_tickets",
+    "approve_closure",
+    "add_internal_notes",
+    "view_audit_trail"
+  ],
+  "admin": [
+    "view_own_tickets",
+    "view_all_tickets",
+    "assign_ticket",
+    "update_status",
+    "resolve_ticket",
+    "approve_closure",
+    "add_internal_notes",
+    "view_audit_trail",
+    "approve_user_request",
+    "create_user",
+    "edit_user",
+    "deactivate_user",
+    "manage_permissions",
+    "manage_rules"
+  ],
+  "auditor": [
+    "view_own_tickets",
+    "view_all_tickets",
+    "view_audit_trail"
+  ]
+}

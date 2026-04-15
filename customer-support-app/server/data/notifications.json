@@ -1,0 +1,34 @@
+[
+  {
+    "id": "NOTIF-MNYT7FW8-7e5a",
+    "userId": "executive-1",
+    "title": "📋 New Ticket Assigned",
+    "message": "TKT-MNYT7FW6 — ww (Medium) auto-assigned to you.",
+    "type": "assignment",
+    "ticketId": "TKT-MNYT7FW6",
+    "link": null,
+    "read": false,
+    "createdAt": "2026-04-14T16:01:49.893Z"
+  },
+  {
+    "id": "NOTIF-MNYT7GD7-c3c0",
+    "userId": "manager-1",
+    "title": "📋 New Ticket",
+    "message": "TKT-MNYT7FW6 — ww (Medium) raised by undefined",
+    "type": "info",
+    "ticketId": "TKT-MNYT7FW6",
+    "link": null,
+    "read": false,
+    "createdAt": "2026-04-14T16:01:50.491Z"
+  },
+  {
+    "id": "NOTIF-MNYT7GDD-5709",
+    "title": "✅ Ticket Created",
+    "message": "TKT-MNYT7FW6 — ww. Assigned to Sarah Johnson.",
+    "type": "success",
+    "ticketId": "TKT-MNYT7FW6",
+    "link": null,
+    "read": false,
+    "createdAt": "2026-04-14T16:01:50.498Z"
+  }
+]

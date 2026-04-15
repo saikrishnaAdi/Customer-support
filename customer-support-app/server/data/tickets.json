@@ -1,0 +1,43 @@
+[
+  {
+    "id": "TKT-MNYT7FW6",
+    "title": "ww",
+    "description": "www",
+    "module": "TMS",
+    "category": "General",
+    "subCategory": "",
+    "priority": "Medium",
+    "status": "Open",
+    "requesterName": "Unknown",
+    "requesterDept": "",
+    "assigneeId": "executive-1",
+    "assigneeName": "Sarah Johnson",
+    "createdAt": "2026-04-14T16:01:49.879Z",
+    "updatedAt": "2026-04-14T16:01:49.879Z",
+    "resolvedAt": null,
+    "slaDeadline": "2026-04-15T16:01:49.879Z",
+    "slaBreach": false,
+    "slaWarning": true,
+    "escalationLevel": null,
+    "escalatedAt": null,
+    "escalationReason": null,
+    "history": [
+      {
+        "action": "created",
+        "at": "2026-04-14T16:01:49.879Z",
+        "detail": "Ticket created"
+      },
+      {
+        "action": "auto_assigned",
+        "by": "System",
+        "at": "2026-04-14T16:01:49.880Z",
+        "detail": "Auto-assigned to Sarah Johnson (L1) based on module & workload"
+      }
+    ],
+    "attachments": [],
+    "linkedRecords": [],
+    "rating": null,
+    "feedback": "",
+    "feedbackCategories": []
+  }
+]

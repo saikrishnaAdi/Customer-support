@@ -1,0 +1,94 @@
+.ticket-queue { padding: 24px; max-width: 1100px; margin: 0 auto; }
+
+.quick-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.quick-filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.quick-filter-btn:hover { background: #f8fafc; border-color: #94a3b8; }
+.quick-filter-btn.active {
+  background: #eff6ff;
+  border-color: #2563eb;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.queue-count { font-size: 13px; color: #64748b; margin-bottom: 12px; }
+
+.queue-list { display: flex; flex-direction: column; gap: 10px; }
+
+.queue-ticket {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.queue-ticket:hover { border-color: #2563eb; box-shadow: 0 4px 12px rgba(37,99,235,0.08); }
+.queue-ticket.critical { border-left: 4px solid #ef4444; }
+
+.queue-ticket-main { flex: 1; min-width: 0; }
+.queue-ticket-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+.queue-ticket-id { font-size: 12px; font-weight: 700; color: #2563eb; }
+.queue-ticket-time { display: flex; align-items: center; gap: 4px; font-size: 11px; color: #94a3b8; }
+.queue-ticket-title { font-size: 15px; font-weight: 600; color: #1e293b; margin: 0 0 4px; }
+.queue-ticket-desc { font-size: 13px; color: #64748b; margin: 0 0 8px; line-height: 1.4; }
+.queue-ticket-meta { display: flex; gap: 12px; flex-wrap: wrap; }
+.queue-raiser { font-size: 12px; color: #475569; font-weight: 500; }
+.queue-assigned { font-size: 12px; color: #2563eb; font-weight: 500; }
+
+.queue-ticket-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.queue-badges { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+
+.assign-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.assign-btn:hover { box-shadow: 0 2px 8px rgba(34,197,94,0.4); }
+
+@media (max-width: 600px) {
+  .queue-ticket { flex-direction: column; }
+  .queue-ticket-side { flex-direction: row; flex-wrap: wrap; align-items: center; }
+  .queue-badges { flex-direction: row; }
+}

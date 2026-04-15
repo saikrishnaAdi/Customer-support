@@ -1,0 +1,93 @@
+.resolver-dashboard { padding: 24px; max-width: 1200px; margin: 0 auto; }
+
+.online-badge-large {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #16a34a;
+}
+
+.stats-grid.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 800px) {
+  .stats-grid.four-col { grid-template-columns: repeat(2, 1fr); }
+}
+
+.stat-icon.purple { background: #faf5ff; color: #7c3aed; }
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 768px) { .dashboard-grid { grid-template-columns: 1fr; } }
+
+.dashboard-section {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+}
+.dashboard-section .section-header { margin-bottom: 12px; margin-top: 0; }
+.dashboard-section .section-header h3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+.section-icon { flex-shrink: 0; }
+.section-icon.red { color: #ef4444; }
+.section-icon.blue { color: #2563eb; }
+.section-icon.purple { color: #7c3aed; }
+
+.critical-section { border-color: #fecaca; background: #fef2f2; }
+
+.ticket-list-compact { display: flex; flex-direction: column; gap: 6px; }
+.compact-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #fafbfc;
+  border: 1px solid #f1f5f9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+  gap: 8px;
+}
+.compact-ticket:hover { border-color: #2563eb; background: #f0f9ff; }
+.compact-ticket.critical { background: #fff5f5; border-color: #fecaca; }
+.compact-left { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+.compact-id { font-size: 11px; font-weight: 700; color: #2563eb; flex-shrink: 0; }
+.compact-title { font-size: 13px; color: #1e293b; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.compact-right { display: flex; gap: 6px; flex-shrink: 0; }
+
+.mini-empty {
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #94a3b8;
+  background: #fafbfc;
+  border-radius: 8px;
+}
+
+.module-stats { display: flex; flex-direction: column; gap: 8px; }
+.module-stat-row { display: flex; align-items: center; gap: 10px; }
+.module-stat-icon { font-size: 16px; }
+.module-stat-name { font-size: 13px; font-weight: 600; color: #475569; width: 60px; }
+.module-stat-bar {
+  flex: 1;
+  height: 8px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.module-stat-fill { height: 100%; border-radius: 4px; transition: width 0.3s; min-width: 2px; }
+.module-stat-count { font-size: 13px; font-weight: 700; color: #1e293b; min-width: 24px; text-align: right; }

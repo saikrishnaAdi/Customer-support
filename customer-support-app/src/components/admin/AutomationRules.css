@@ -1,0 +1,94 @@
+.automation-rules { padding: 24px; max-width: 900px; margin: 0 auto; }
+
+.rules-summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.rules-summary svg { color: #f59e0b; }
+.rules-divider { color: #cbd5e1; }
+
+.rules-list { display: flex; flex-direction: column; gap: 14px; }
+
+.rule-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px 20px;
+  transition: all 0.2s;
+}
+.rule-card.disabled { opacity: 0.6; }
+.rule-card.enabled { border-left: 3px solid #22c55e; }
+.rule-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.05); }
+
+.rule-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.rule-type-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.rule-info { flex: 1; }
+.rule-info h4 { margin: 0; font-size: 15px; font-weight: 600; color: #1e293b; }
+.rule-info p { margin: 4px 0 0; font-size: 13px; color: #64748b; line-height: 1.4; }
+
+.rule-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+}
+.toggle-on { color: #22c55e; }
+.toggle-off { color: #cbd5e1; }
+
+.rule-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+.rule-type-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.rule-id { font-size: 11px; color: #94a3b8; font-family: monospace; }
+
+.rule-conditions, .rule-actions-list {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.rule-conditions-label, .rule-actions-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.rule-condition-chip, .rule-action-chip {
+  font-size: 11px;
+  padding: 2px 8px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  color: #475569;
+  font-family: monospace;
+}

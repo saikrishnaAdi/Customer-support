@@ -1,0 +1,130 @@
+.admin-dashboard { padding: 24px; max-width: 1200px; margin: 0 auto; }
+
+.admin-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.admin-stat-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+
+.admin-stat-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+.admin-stat-icon.sla { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+.admin-stat-icon.csat { background: linear-gradient(135deg, #10b981, #059669); }
+.admin-stat-icon.breach { background: linear-gradient(135deg, #ef4444, #dc2626); }
+.admin-stat-icon.rules { background: linear-gradient(135deg, #f59e0b, #d97706); }
+
+.admin-stat-info { display: flex; flex-direction: column; }
+.admin-stat-value { font-size: 24px; font-weight: 800; color: #1e293b; line-height: 1; }
+.admin-stat-label { font-size: 12px; color: #64748b; margin-top: 4px; }
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.admin-panel {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px;
+}
+.admin-panel h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 16px;
+}
+
+/* SLA */
+.sla-overview { display: flex; flex-direction: column; gap: 14px; }
+.sla-bar-wrapper { display: flex; flex-direction: column; gap: 6px; }
+.sla-bar { height: 10px; background: #f1f5f9; border-radius: 5px; overflow: hidden; }
+.sla-bar-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #16a34a); border-radius: 5px; transition: width 0.5s; }
+.sla-bar-label { font-size: 12px; color: #64748b; }
+.sla-stats-row { display: flex; gap: 16px; }
+.sla-mini { display: flex; align-items: center; gap: 5px; font-size: 13px; color: #475569; }
+.sla-ok { color: #16a34a; }
+.sla-warn { color: #f59e0b; }
+.sla-breach { color: #ef4444; }
+
+/* Performance */
+.perf-list { display: flex; flex-direction: column; gap: 10px; }
+.perf-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+.perf-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0ea5e9, #06b6d4);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+.perf-info { flex: 1; }
+.perf-info strong { display: block; font-size: 14px; color: #1e293b; }
+.perf-info span { font-size: 12px; color: #64748b; }
+.perf-rating { font-size: 14px; font-weight: 600; color: #1e293b; }
+
+/* Module Distribution */
+.module-dist-list { display: flex; flex-direction: column; gap: 10px; }
+.module-dist-row { display: flex; align-items: center; gap: 12px; }
+.module-dist-name { width: 80px; font-size: 13px; font-weight: 600; color: #1e293b; }
+.module-dist-bar { flex: 1; height: 8px; background: #f1f5f9; border-radius: 4px; overflow: hidden; }
+.module-dist-fill { height: 100%; background: linear-gradient(90deg, #6366f1, #8b5cf6); border-radius: 4px; transition: width 0.3s; }
+.module-dist-count { font-size: 13px; font-weight: 600; color: #475569; width: 30px; text-align: right; }
+
+/* Audit Preview */
+.audit-preview-list { display: flex; flex-direction: column; gap: 8px; }
+.audit-empty { padding: 24px; text-align: center; color: #94a3b8; font-size: 13px; }
+.audit-preview-item {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+  align-items: flex-start;
+}
+.audit-preview-item:last-child { border-bottom: none; }
+.audit-preview-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #3b82f6;
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+.audit-preview-content { flex: 1; display: flex; flex-direction: column; }
+.audit-preview-action { font-size: 13px; font-weight: 600; color: #1e293b; }
+.audit-preview-detail { font-size: 12px; color: #64748b; }
+.audit-preview-time { font-size: 11px; color: #94a3b8; margin-top: 2px; }

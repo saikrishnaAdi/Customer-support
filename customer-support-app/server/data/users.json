@@ -1,0 +1,116 @@
+[
+  {
+    "id": "requester-1",
+    "name": "Anita Sharma",
+    "email": "anita@pharma.com",
+    "role": "requester",
+    "department": "Quality Control",
+    "avatar": "AS",
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "requester-2",
+    "name": "Raj Patel",
+    "email": "raj@pharma.com",
+    "role": "requester",
+    "department": "Production",
+    "avatar": "RP",
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "executive-1",
+    "name": "Sarah Johnson",
+    "email": "sarah@support.com",
+    "role": "executive",
+    "department": "IT Support",
+    "avatar": "SJ",
+    "level": "L1",
+    "specialties": [
+      "CAPA",
+      "DEVIATION",
+      "NTF"
+    ],
+    "maxTickets": 8,
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "professional-1",
+    "name": "David Chen",
+    "email": "david@support.com",
+    "role": "professional",
+    "department": "IT Support",
+    "avatar": "DC",
+    "level": "L2",
+    "specialties": [
+      "TMS",
+      "CMS",
+      "CCN"
+    ],
+    "maxTickets": 10,
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "senior-1",
+    "name": "Dr. Ramesh Kumar",
+    "email": "ramesh@support.com",
+    "role": "senior-professional",
+    "department": "IT Support",
+    "avatar": "RK",
+    "level": "L3",
+    "specialties": [
+      "TMS",
+      "CMS",
+      "CCN",
+      "CAPA",
+      "DEVIATION",
+      "NTF"
+    ],
+    "maxTickets": 6,
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "manager-1",
+    "name": "Priya Nair",
+    "email": "priya@pharma.com",
+    "role": "manager",
+    "department": "Support Management",
+    "avatar": "PN",
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "qa-reviewer-1",
+    "name": "Vikram Mehta",
+    "email": "vikram@pharma.com",
+    "role": "qa-reviewer",
+    "department": "QA Head",
+    "avatar": "VM",
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "admin-1",
+    "name": "Suresh Iyer",
+    "email": "suresh@pharma.com",
+    "role": "admin",
+    "department": "IT Administration",
+    "avatar": "SI",
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "auditor-1",
+    "name": "Linda Foster",
+    "email": "linda@pharma.com",
+    "role": "auditor",
+    "department": "Compliance",
+    "avatar": "LF",
+    "active": true,
+    "createdAt": "2026-01-01T00:00:00Z"
+  }
+]
