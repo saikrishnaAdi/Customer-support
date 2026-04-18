@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { Headphones, User, Shield, ArrowRight, Info, Settings, Eye, ClipboardCheck } from 'lucide-react';
+import { Headphones, User, Shield, ArrowRight, Info } from 'lucide-react';
 import './LoginPage.css';
 
 const ROLE_CONFIG = {
@@ -18,34 +18,14 @@ const ROLE_CONFIG = {
     description: 'Resolve support tickets and assist platform users',
     features: ['🎯 Pick & resolve tickets', '💬 Chat with users', '📞 Audio & Video calls', '🖥️ Remote control access', '📊 View reports & stats'],
   },
-  admin: {
-    label: 'Administrator',
-    icon: Settings,
-    color: 'admin',
-    description: 'Manage system configuration, rules, and users',
-    features: ['⚙️ Automation rules engine', '📋 Audit trail viewer', '📊 Advanced reports', '📖 Knowledge base management', '👥 User & role management'],
-  },
-  'qa-reviewer': {
-    label: 'QA Reviewer',
-    icon: ClipboardCheck,
-    color: 'qa-reviewer',
-    description: 'Review escalated tickets and ensure quality standards',
-    features: ['🔍 Review escalated tickets', '✅ Approve/reject resolutions', '📊 Quality metrics', '📈 SLA compliance monitoring'],
-  },
-  auditor: {
-    label: 'Auditor',
-    icon: Eye,
-    color: 'auditor',
-    description: 'Read-only access for compliance auditing',
-    features: ['📋 Full audit trail access', '📊 Compliance reports', '🔍 Ticket inspection (read-only)', '📈 SLA & CSAT analytics'],
-  },
+
 };
 
 export default function LoginPage() {
   const { users, login } = useAuth();
   const [selectedRole, setSelectedRole] = useState(null);
 
-  const roles = ['raiser', 'resolver', 'admin', 'qa-reviewer', 'auditor'];
+  const roles = ['raiser', 'resolver'];
 
   return (
     <div className="login-page">
